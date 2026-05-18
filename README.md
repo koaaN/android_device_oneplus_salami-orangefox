@@ -29,12 +29,18 @@ git clone https://github.com/OrangeFox16/sync.git
 cd sync
 ./orangefox_sync.sh --branch 16.0 --path ~/android/fox_16.0
 ```
-### Clone Device-tree
+### Clone Common-tree
 ```
 cd ~/android/fox_16.0/device
 mkdir -p oneplus
 cd oneplus
-git clone https://github.com/koaaN/android_device_oneplus_salami-orangefox -b fox_16.0 salami
+git clone https://github.com/koaaN/device_oneplus_sm85xx-common-TWRP -b fox_16.0 sm85xx-common
+```
+
+### Clone Device-tree
+```
+cd ~/android/fox_16.0/device/oneplus
+git clone https://github.com/koaaN/android_device_salami-orangefox -b fox_16.0 salami
 ```
 ### BUILD!
 ```

@@ -23,4 +23,6 @@
 # Inherit from OEM SOC-common
 $(call inherit-product, $(COMMON_PATH)/device-common.mk)
 
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)/twrp

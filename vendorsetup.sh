@@ -1,7 +1,7 @@
 export TARGET_ARCH="arm64-v8a"
 
 # Some about us
-export OF_MAINTAINER=Wishmasterflo
+export OF_MAINTAINER=koaaN
 
 # Build environment stuffs
 export FOX_BUILD_DEVICE="OnePlus11"
