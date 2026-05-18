@@ -34,7 +34,7 @@ cd sync
 cd ~/android/fox_16.0/device
 mkdir -p oneplus
 cd oneplus
-git clone https://github.com/koaaN/android_device_salami-orangefox -b fox_16.0 salami
+git clone https://github.com/koaaN/android_device_oneplus_salami-orangefox -b fox_16.0 salami
 ```
 ### BUILD!
 ```
