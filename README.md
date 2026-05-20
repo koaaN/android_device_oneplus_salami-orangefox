@@ -39,7 +39,9 @@ git clone https://github.com/koaaN/device_oneplus_sm85xx-common-TWRP -b fox_16.0
 
 ### Clone Device-tree
 ```
-cd ~/android/fox_16.0/device/oneplus
+cd ~/android/fox_16.0/device
+mkdir -p oneplus
+cd oneplus
 git clone https://github.com/koaaN/android_device_salami-orangefox -b fox_16.0 salami
 ```
 ### BUILD!

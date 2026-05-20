@@ -60,6 +60,8 @@ COMMON_PATH := device/oneplus/sm85xx-common
 # Device path for OEM device tree
 DEVICE_PATH := device/oneplus/salami
 
+OF_ENABLE_WLAN := 1
+
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, $(DEVICE_PATH)/device-salami.mk)
 
