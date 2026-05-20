@@ -2,18 +2,18 @@
 
 ## Working
 
-- [?] Display
-- [?] Touch 
-- [?] Decryption
+- [X] Display
+- [X] Touch 
+- [X] Decryption
 - [?] Flashing
 - [?] Backup & Restore
 - [?] KernelSU, KernelSU Next & SukiSU Ultra Installer
 - [?] MTP/OTG Storage
-- [?] ADB/FastbootD
+- [X] ADB/FastbootD
 - [?] Factory Reset
-- [?] Vibrator
-- [?] Display & Vibration Settings
-- [?] Flashlight
+- [X] Vibrator
+- [X] Display & Vibration Settings
+- [X] Flashlight
 
 ## Not working
 
@@ -48,6 +48,6 @@ git clone https://github.com/koaaN/android_device_salami-orangefox -b fox_16.0 s
 ```
 cd ~/android/fox_16.0
 source build/envsetup.sh
-lunch twrp_salami-bp2a-eng
+lunch fox_salami-bp2a-eng
 mka adbd recoveryimage
 ```
